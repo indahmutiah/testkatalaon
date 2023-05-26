@@ -17,3 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+
+WebUI.click(findTestObject('Object Repository/TC005- User Null/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+
+WebUI.click(findTestObject('Object Repository/TC005- User Null/Page_CURA Healthcare Service/a_Login'))
+
+WebUI.click(findTestObject('Object Repository/TC005- User Null/Page_CURA Healthcare Service/input_Demo account_form-control'))
+
+WebUI.setText(findTestObject('Object Repository/TC005- User Null/Page_CURA Healthcare Service/input_Username_username'), 
+    'John Doe')
+
+WebUI.setText(findTestObject('Object Repository/TC005- User Null/Page_CURA Healthcare Service/input_Demo account_form-control_1'), 
+    'ThisIsNotAPassword')
+
+WebUI.doubleClick(findTestObject('Object Repository/TC005- User Null/Page_CURA Healthcare Service/input_Demo account_form-control_1'))
+
+WebUI.doubleClick(findTestObject('Object Repository/TC005- User Null/Page_CURA Healthcare Service/input_Username_username'))
+
+WebUI.setText(findTestObject('Object Repository/TC005- User Null/Page_CURA Healthcare Service/input_Username_username'), 
+    '')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TC005- User Null/Page_CURA Healthcare Service/input_Password_password'), 
+    'gdcc432nhE0fy+OnPxrtHw==')
+
+WebUI.click(findTestObject('Object Repository/TC005- User Null/Page_CURA Healthcare Service/button_Login'))
+

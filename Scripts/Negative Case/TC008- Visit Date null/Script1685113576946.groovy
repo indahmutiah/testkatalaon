@@ -21,19 +21,34 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/TC001- Login/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+WebUI.click(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
-WebUI.click(findTestObject('Object Repository/TC001- Login/Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/TC001- Login/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.doubleClick(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/input_Demo account_form-control'))
 
-WebUI.setText(findTestObject('Object Repository/TC001- Login/Page_CURA Healthcare Service/input_Demo account_form-control'), 
-    'ThisIsNotAPassword')
+WebUI.doubleClick(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/input_Demo account_form-control_1'))
 
-WebUI.doubleClick(findTestObject('Object Repository/TC001- Login/Page_CURA Healthcare Service/input_Demo account_form-control'))
+WebUI.doubleClick(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/input_Demo account_form-control_1'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC001- Login/Page_CURA Healthcare Service/input_Password_password'), 
+WebUI.click(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/input_Demo account_form-control_1'))
+
+WebUI.doubleClick(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/input_Username_username'))
+
+WebUI.setText(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/input_Username_username'), 
+    'John Doe')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/input_Password_password'), 
+    '9NLz+4tGZcQ=')
+
+WebUI.doubleClick(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/input_Demo account_form-control'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/input_Password_password'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/TC001- Login/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/button_Book Appointment'))
+
+WebUI.click(findTestObject('Object Repository/TC008 - Visit Date Null/Page_CURA Healthcare Service/button_Book Appointment'))
 

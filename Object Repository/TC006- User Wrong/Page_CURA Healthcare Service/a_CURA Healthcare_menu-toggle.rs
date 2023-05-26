@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_CURA Healthcare_menu-toggle</name>
+   <tag></tag>
+   <elementGuidId>d3a5100f-5c20-412d-bb50-cb621d20dca4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menu-toggle']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menu-toggle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a34d1499-1f23-44f3-88a8-2e4fc06252f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>menu-toggle</value>
+      <webElementGuid>b54ebf3a-a271-4750-85b9-0c74e5455e2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>f88eba49-bd0e-4e41-adbf-86e0006b9b7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-dark btn-lg toggle</value>
+      <webElementGuid>d26b9a93-dee8-4dfe-bac4-c0bec9fe566a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-toggle&quot;)</value>
+      <webElementGuid>9636ffeb-647b-4e3e-bb03-4ba7083f2041</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='menu-toggle']</value>
+      <webElementGuid>c6c42120-5571-4426-801b-3e37424e6cd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare'])[1]/preceding::a[2]</value>
+      <webElementGuid>60601adc-0631-4a2a-b38c-d8c875ae1d38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::a[3]</value>
+      <webElementGuid>8f90e187-6051-4444-a7be-0b78a6f72d21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#')]</value>
+      <webElementGuid>269abd63-f3ad-4d4e-91d0-84bec5d8c31a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>c9670558-9c3c-424c-b1af-b948df6dd0ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'menu-toggle' and @href = '#']</value>
+      <webElementGuid>3987465f-58ac-4394-8551-b0fbc8d42fd4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
